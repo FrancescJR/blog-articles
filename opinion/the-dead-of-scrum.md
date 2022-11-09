@@ -86,4 +86,11 @@ are other tangential initiatives that challenge Scrum like https://unfix.work/.
 
 All of them sell themselves as non-agile, but I am sure the core values are still there. A colleague of mine 
 put it very well: "the Scrum hype is passing away but the good foundations will remain". As long as we remember
-the "why" and the lessons learned (a lot of learnt from Scrum, of course!) we will find our unique path.
+the "why" and the lessons learned, we will find our unique path.
+
+Don't forget this lesson from Scrum:
+> You must learn, inspect, and adapt your way forward base on your organization's
+> own unique goals and culture and the ever-changing complex environment in which you must operate.
+
+
+
