@@ -1,8 +1,5 @@
 # The dead of Scrum
 
-Initially I thought of calling this blog post "Shape Up, a fresh view to software project management". But the devil
-of the clickbait was stronger.
-
 It all started when a friend of mine that works in a cool place - to me that place looks like super duper advanced and that the use very cutting edge technologies - said
 that they might follow some practices from [Shape Up](https://basecamp.com/shapeup). So I eagerly sent the pdf version
 to my Kindle and devoured the book in about 3 nights. It's nicely written, so it doesn't get dense.
@@ -57,13 +54,59 @@ down" for my taste - some decisions that should be accorded with more people of 
 
 Other brilliant ideas are the "scope mapping" and the "hill chart" to track the project progress. Once it's explained
 in the book, you see clearly, that the grooming of Scrum makes no sense. Not that it makes no sense, but it becomes
-apparent that it is too difficult to do it right. You have to write the tasks with the right level of concreteness to let them
-be groomed afterwards. At this point you need to discover things about that task
-that you didn't know before - that would be going up hill on Shape Up-  which by the way is work that is not shown anywhere
-in Scrum, just as a bunch of people guessing in the grooming meeting without actually getting the hands dirty on the code
-to make sure the approach is possible or not. Once you discover them, then you write more level of concreteness or even
-create more tasks - that would be when you are "downhill" on Shape Up. To me is a no-brainer that the Shape Up
-relaxed method is better.
+apparent that it is too difficult to do it right. Even impossible. Let me develop that:
+---
+## The impossible problem
+
+On Scrum, the work is divided into pieces, user stories, or however you want to call them, that are at 
+the beginning at very high level, without much concreteness and very hard to estimate at this point in time.
+Normally people would estimate them with those fuzzy ambiguous t-shirt estimations.
+
+Then those tasks go through a process of grooming and got divided into smaller tasks, that should make sense
+on their own, and are easier to estimate, so you finally get a complete whole estimation for the big task.
+
+Scrum here misses a very big point that Shape Up got right. You don't know what you don't know yet. That's what
+they call going up-hill, when you go do proof of concepts for new stuff, or investigate, and you go dirty in the code
+to figure out how to approach the problem. On Scrum all of this work is minimized and assigned fully on the
+grooming meeting. And I would say this work is actually the most important part! It's good to put more than one brain
+going up-hill, but making it a crew process is probably
+wrong, social politics will play a higher input on how to solve a problem, instead of the actual problem-solving skills.
+
+Once you figure out what to do, then is when you go "down hill" on the Shape Up process. On Scrum that would be
+when you have those tasks groomed and a clear "todo" list. That work is probably the most unimportant, and one
+that when you do it, you often think "why don't we hire an intern to do that?", but the one that Scrum puts the 
+focus on. The cool problem solving part has been pretty much ignored, and assumed that everybody knows
+what needs to be done even almost from the T-shirt estimation time.
+
+We also lost a lot of time with Scrum poker trying to estimate those small tasks, jumping our way forward
+without proper thinking, (boring quite a bunch of people in the process).
+And all of this estimation are for what? to realize that the T-shirt estimation was
+completely off-track? What's the value, once you are all dirty in the problem, to know that it will take longer
+than expected?
+
+All of this is to tell the stakeholders how much a piece of software is worth. And that is the impossible problem.
+On Theory of Computation, the main [semi-decidability problem](https://www.geeksforgeeks.org/decidability-semi-decidability-and-undecidability-in-toc/), the problem where you reduce other problems 
+to prove that they are actually semi-decidable, is the problem that states something like (it's been a long time that
+I coursed that, give me some leeway) "given a turing machine, and an input which is the same turing machine, will
+the turing machine halt when processing this input?". How long will it take to complete that piece of software could be reduced to this semi-decidable problem. If we 
+were Turing Machines, we might never halt, we don't know what we don't know yet. So this problem has no answer.
+
+Now, that is very inconvenient, mainly because our salaries depend on that. We kind of need to tell the stakeholders
+or our clients, how much something is worth. Both Scrum and Shape Up solve that partially
+by scoping very strictly the problem, so we are more likely to "halt", (and also we don't waste time on non-core features
+or nice to haves). Scrum goes an extra mile by adding a huge overhead with all the grooming process that Shape
+Up simply avoids by more strict scoping and changing the concept from estimation to a "bet" (a word that gives
+more emphasis on uncertainty that "estimate" does). 
+
+And going that extra mile, was really worth it? The only case I can think of is when you need to bill your clients for
+the time spent, but for that, estimations should be avoided and rather the actual time tracking should be used.
+
+Yes, you might want to use the estimates to confirm with the client whether to go ahead with the project or not (doesn't
+that sound like a bet). And then having the discussion of "yeah, it actually was way more expensive that we said, sorry!".
+
+The impossible problem.
+
+---
 
 The best thing is that, apparently, you don't need Scrum to ship good quality software to the end users. It's been probably
 been a while that everybody knows that Scrum is not the golden panacea for software project management. Dailies make
